@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health & Wellness Store</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 </head>
 <body class="bg-gray-100">
 
@@ -29,23 +32,27 @@
         <a href="products.html" class="mt-6 inline-block px-6 py-3 bg-white text-green-600 font-semibold rounded">Shop Now</a>
     </section>
 
-    <!-- Features -->
+    <!-- Features Section with Animations -->
     <section class="py-10 px-6">
         <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-6 text-center">
-            <div class="p-6 bg-white rounded shadow">
+            <div class="p-6 bg-white rounded shadow transform transition duration-300 hover:scale-105 animate-fadeIn">
+                <img src="natural-icon.png" alt="Natural" class="w-12 mx-auto mb-3">
                 <h3 class="text-xl font-bold">100% Natural</h3>
                 <p>We provide organic and natural health products.</p>
             </div>
-            <div class="p-6 bg-white rounded shadow">
+            <div class="p-6 bg-white rounded shadow transform transition duration-300 hover:scale-105 animate-fadeIn delay-200">
+                <img src="shipping-icon.png" alt="Shipping" class="w-12 mx-auto mb-3">
                 <h3 class="text-xl font-bold">Fast Shipping</h3>
                 <p>Get your products delivered in no time.</p>
             </div>
-            <div class="p-6 bg-white rounded shadow">
+            <div class="p-6 bg-white rounded shadow transform transition duration-300 hover:scale-105 animate-fadeIn delay-400">
+                <img src="secure-icon.png" alt="Secure" class="w-12 mx-auto mb-3">
                 <h3 class="text-xl font-bold">Secure Payments</h3>
                 <p>Safe and encrypted payment options.</p>
             </div>
         </div>
     </section>
+
 
     <footer class="bg-green-700 text-white text-center py-4 mt-10">
         &copy; 2025 Health & Wellness Store
