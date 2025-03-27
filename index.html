@@ -25,12 +25,25 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="text-center py-20 bg-green-500 text-white">
-        <h2 class="text-4xl font-bold">Your Health, Our Priority</h2>
-        <p class="text-lg mt-4">Shop the best supplements, tonics, and protein shakes for a healthier life.</p>
-        <a href="products.html" class="mt-6 inline-block px-6 py-3 bg-white text-green-600 font-semibold rounded">Shop Now</a>
-    </section>
+   <!-- Hero Section -->
+<section class="relative h-screen flex items-center justify-center text-center text-white">
+    <!-- Background Image -->
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?health,supplements');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Dark overlay -->
+    </div>
+
+    <!-- Content -->
+    <div class="relative z-10 px-6">
+        <h1 class="text-4xl md:text-6xl font-bold animate-fadeIn">Your Health, Our Priority</h1>
+        <p class="mt-4 text-lg md:text-xl animate-fadeIn delay-200">Premium supplements & wellness products for a better you.</p>
+        
+        <!-- Animated Button -->
+        <a href="products.html" class="mt-6 inline-block px-6 py-3 bg-green-500 text-white text-lg font-bold rounded shadow-lg transform transition duration-300 hover:scale-105 hover:bg-green-600 animate-bounce">
+            Shop Now
+        </a>
+    </div>
+</section>
+
 
     <!-- Features Section with Icons & Animations -->
 <section class="py-10 px-6">
